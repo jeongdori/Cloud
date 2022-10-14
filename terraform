@@ -1,1 +1,23 @@
-a
+terraform {
+ backend "s3" {
+   hostname = “app.terraform.io"
+   organization  = “GJ123"
+   workspaces {
+      name = ‘tf-cloud-backend”
+ }
+}
+}
+흰색_확인_표시
+두_눈
+두_손을_들고_있는_사람
+
+
+
+
+
+10:43
+nano ~/.terraformrc
+Plugin_cache_dir =“$HOME/.terraform.d/plugin-cache”
+Credentials “app.terraform.io” {
+ token = “ ”
+}
