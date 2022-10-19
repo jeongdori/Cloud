@@ -14,7 +14,7 @@ ami_filters = [
 
 # EC2
 instance_type = "t3.micro"
-key_name      = "jenkins-ec2
+key_name      = "jenkins-ec2"
 private_ip    = "10.0.1.140"
 
 # iam
